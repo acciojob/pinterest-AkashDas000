@@ -1,16 +1,62 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <title>Pinterest Hero Section</title>
+  <style>
+    /* Container styling */
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      background-color: #f8f8f8;
+      height: 100vh;
+      box-sizing: border-box;
+    }
 
+    /* Inner content layout */
+    .hero-content {
+      text-align: center;
+      max-width: 600px;
+    }
+
+    /* Image styling */
+    .hero img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    /* Button styling */
+    .explore-btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #e60023;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .explore-btn:hover {
+      background-color: #c2001d;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div class="hero">
+    <div class="hero-content">
+      <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pinterest-style banner">
+      <h1>Discover Your Next Inspiration</h1>
+      <p>Millions of ideas for your next project. Explore curated images and creative content now.</p>
+      <a href="#" class="explore-btn">Explore Now</a>
+    </div>
+  </div>
 
 </body>
-
 </html>
